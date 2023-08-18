@@ -7,4 +7,4 @@ export const app = express();
 app.use(express.json());
 
 // routes
-app.use("/location", coordsRouter);
+app.use("/coordinates", coordsRouter);
